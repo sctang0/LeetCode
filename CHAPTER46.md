@@ -4,7 +4,7 @@
 
 递归回溯
 
-![图片来源：笨猪爆破组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER46.assets/aa061a6233fa2bd640b4e1416c12dceceb0c4b4e6f2610240740a3cb6ea1496c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200514183911.png)
+![图片来源：笨猪爆破组](https://github.com/sctang0/LeetCode/raw/master/CHAPTER46.assets/aa061a6233fa2bd640b4e1416c12dceceb0c4b4e6f2610240740a3cb6ea1496c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200514183911.png)
 
 
 
