@@ -4,7 +4,7 @@
 
 递归回溯
 
-![图片来源：笨猪爆破组]([https://github.com/sctang0/LeetCode/blob/master/images/46.%20Permutations.png](https://github.com/sctang0/LeetCode/blob/master/images/46. Permutations.png))
+![图片来源：笨猪爆破组]https://github.com/sctang0/LeetCode/blob/master/images/46. Permutations.png)
 
 
 
