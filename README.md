@@ -8,7 +8,7 @@ LeetCode 问题回答的合集。
 #### 目录：
 
 * [0. 题外话合集](https://github.com/sctang0/LeetCode/blob/master/CHAPTER0.md)
-
 * [45. 跳跃游戏 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER45.md)
 * [46. 全排序](https://github.com/sctang0/LeetCode/blob/master/CHAPTER46.md)
+* [47. 全排序 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER47.md)
 

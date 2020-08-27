@@ -57,6 +57,7 @@ var permute = function(nums) {
     }
     backTrack(tmpPath);
     return res;
+}
 ```
 
 
