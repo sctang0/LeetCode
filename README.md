@@ -11,4 +11,5 @@ LeetCode 问题回答的合集。
 * [45. 跳跃游戏 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER45.md)
 * [46. 全排序](https://github.com/sctang0/LeetCode/blob/master/CHAPTER46.md)
 * [47. 全排序 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER47.md)
+* [48. 旋转图像](https://github.com/sctang0/LeetCode/blob/master/CHAPTER48.md)
 
