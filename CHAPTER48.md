@@ -28,7 +28,9 @@
 
 * 如何将矩阵分为 4 个相同的矩阵，并通过函数实现遍历？
 
-  * 矩阵的划分，如下图：![图片来源：wiserui：48. 旋转图像](https://pic.leetcode-cn.com/9ef6502d4f4d462698139c2e27045f1f14bfd1ca551c379ecd8c826ec706813b-image.png)
+  * 矩阵的划分，如下图：
+  
+    * ![图片来源：wiserui：48. 旋转图像](https://pic.leetcode-cn.com/9ef6502d4f4d462698139c2e27045f1f14bfd1ca551c379ecd8c826ec706813b-image.png)
   
   * 那么，如何实现矩阵元素的遍历呢？
   
