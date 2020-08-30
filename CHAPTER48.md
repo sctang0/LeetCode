@@ -1,6 +1,48 @@
 ### [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 
+##### 思路
 
+需要解决的问题：
+
+* 对应位置的 4 个元素，如何实现原地顺时针旋转 90° 的位置变化？
+
+  * 如何通过一个“统一的格式”，表示这 4 个元素？
+
+    * 例如，一个在矩阵左上角的数组元素 `matrix[i][j]` ，那么，其它对应 3 个元素如何表示？
+      * 令 `len = matrix.length`
+      * 那么，左下角对应元素为 `matrix[len-i][j]` 。右上角对应元素为 `matrix[i][len-j]` 。右下角对应元素为 `matrix[len-i][len-j]` 。
+
+  * 如何实现顺时针旋转呢？
+
+    * 定义一个临时保值变量 `temp` ，具体程序如下：
+
+    * ```javascript
+      temp = matrix[i][j];
+      matrix[i][j] = matrix[len-j][i];
+      matrix[len-j][i] = matrix[len-i][len-j];
+      matrix[len-i][len-j] = matrix[j][len-i];
+      matrix[j][len-i] = temp;
+      ```
+
+  
+
+* 如何将矩阵分为 4 个相同的矩阵，并通过函数实现遍历？
+
+  * 矩阵的划分，如下图：![图片来源：wiserui：48. 旋转图像](https://pic.leetcode-cn.com/9ef6502d4f4d462698139c2e27045f1f14bfd1ca551c379ecd8c826ec706813b-image.png)
+  
+  * 那么，如何实现矩阵元素的遍历呢？
+  
+    * 实现程序：
+  
+      ```javascript
+      let len = matrix.length - 1;
+      for (var i=0; i<=Math.floor(len/2); i++) {
+          for (var j=i; j<=len-i-1; j++) {
+              matrix[i][j];
+          }
+      }
+      ```
+    
 
 
 
