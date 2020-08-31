@@ -1,6 +1,6 @@
 ### [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 
-##### 思路
+#### 思路
 
 需解决的问题：
 
@@ -11,7 +11,7 @@
 
 
 
-##### 题外话
+#### 题外话
 
 * `var tmpHash = new Array(26)` ：定义长度为 26 的二维数组。
 
@@ -30,7 +30,7 @@
 
 
 
- ##### 思路、程序参考
+ #### 思路、程序参考
 
 * [秦时明月：49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/solution/49-zi-mu-yi-wei-ci-fen-zu-by-alexer-660/)
 * [力扣(LeetCode)：49. 字符异位词分组](https://leetcode-cn.com/problems/group-anagrams/solution/zi-mu-yi-wei-ci-fen-zu-by-leetcode/)
@@ -72,7 +72,7 @@ var groupAnagrams = function(strs) {
 
 
 
-##### 复杂度分析
+#### 复杂度分析
 
 * 时间复杂度：O(n*m)。`n` 为 `strs` 的长度，`m` 为 `strs` 中字符串的长度。
 * 空间复杂度：O(n*m)。保存需要返回的二维数组 `out` 。
