@@ -54,12 +54,22 @@ var myPow = function(x, n) {
 
 ##### 复杂度分析
 
-* 时间复杂度：O(n)，n 为幂函数的指数。注：此算法超出了时间限制。
+* 时间复杂度：O(n)，n 为幂函数中的指数。注：此算法超出了时间限制。
 * 空间复杂度：O(1)
 
 
 
-#### 思路二：
+#### 思路二：迭代
+
+* 相较于思路一，将乘的过程优化了。如下：
+  * `xTmp = x`
+  * `x = x^2` ，底数不断二次方，同时 `n = parseInt(n/2)` 指数不断除 2 。
+  * 直到 `n = 1` ，`return x * xTmp` 。
+  * 举例：Pow(x, n) (x=2, n=5)
+    * `xTmp = 2`
+    * `x = x^2 = 2^2; n = parseInt(n/2) = parseInt(5/2);` ...
+    *  当 `n = 1` 时，`x = 16`
+    * `return x * xTmp;` ，即 `return 16 * 2`
 
 
 
@@ -73,3 +83,38 @@ var myPow = function(x, n) {
 
 * [秦时明月：50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/solution/50-powx-n-by-alexer-660/)
 
+
+
+```javascript
+/**
+ * @param {number} x
+ * @param {number} n
+ * @return {number}
+ */
+var myPow = function(x, n) {
+    if (n == 0) {
+        return 1;
+    }
+    x = parseFloat(x);
+    if (n < 0) {
+        x = parseFloat(1 / x);
+        n = -n;
+    }
+    var subResult = x;
+    var result = 1;
+    for (var i=n; i>0; i=parseInt(i/2)) {
+        if (i&1 == 1) {
+            result *= subResult;
+        }
+        subResult *= subResult;
+    }
+    return result;
+};
+```
+
+
+
+##### 复杂度分析
+
+* 时间复杂度：O(logn)，n 为幂函数中的指数。
+* 空间复杂度：O(1)
