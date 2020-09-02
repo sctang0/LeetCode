@@ -5,6 +5,7 @@
 ##### 思路、程序参考
 
 * [秦时明月：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
+* [力扣(LeetCode)：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/)
 
 
 
@@ -66,3 +67,9 @@ var solveNQueens = function(n) {
 }
 ```
 
+
+
+##### 复杂度分析
+
+* 时间复杂度：
+* 空间复杂度：

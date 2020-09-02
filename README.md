@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode 问题回答的合集。
+[LeetCode](https://leetcode-cn.com/problemset/all/) 问题回答的合集。
 
 个人也是踩在了前人的肩膀上。题解中的思路和程序，很多都是借鉴别人的。当然，我也注明了来源。
 
