@@ -1,4 +1,4 @@
-### [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
+### [51. N皇后](https://leetcode-cn.com/problems/n-queens/)
 
 ##### 思路：递归剪枝
 

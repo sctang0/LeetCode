@@ -14,5 +14,6 @@
 * [48. 旋转图像](https://github.com/sctang0/LeetCode/blob/master/CHAPTER48.md)
 * [49. 字符串异位词分组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER49.md)
 * [50. Pow(x, n)](https://github.com/sctang0/LeetCode/blob/master/CHAPTER50.md)
-* [51. N 皇后](https://github.com/sctang0/LeetCode/blob/master/CHAPTER51.md)
+* [51. N皇后](https://github.com/sctang0/LeetCode/blob/master/CHAPTER51.md)
+* [52. N皇后 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER52.md)
 
