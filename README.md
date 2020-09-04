@@ -16,4 +16,5 @@
 * [50. Pow(x, n)](https://github.com/sctang0/LeetCode/blob/master/CHAPTER50.md)
 * [51. N皇后](https://github.com/sctang0/LeetCode/blob/master/CHAPTER51.md)
 * [52. N皇后 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER52.md)
+* [53. 最大子序之和](https://github.com/sctang0/LeetCode/blob/master/CHAPTER53.md)
 
