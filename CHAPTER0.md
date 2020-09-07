@@ -38,4 +38,10 @@
 
 
 
+* [arr.push(element1, ..., elementN)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push)：将一个或多个元素添加到数组的末尾，并返回该数组的新长度。
+  * elementN：被添加到数组末尾的元素
+  * 返回值：当调用该方法时，新的 length 属性值将被返回。
+
+
+
 * [arr.slice(begin, end)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的**浅拷贝**（包括 `begin`，不包括`end`）。原始数组不会被改变。

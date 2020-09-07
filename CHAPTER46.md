@@ -20,6 +20,7 @@
 * [arr.slice(begin, end)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的**浅拷贝**（包括 `begin`，不包括`end`）。原始数组不会被改变。
   * 如果省略 `begin`，则 `slice` 从索引 `0` 开始。如果 `begin` 大于原数组的长度，则会返回空数组。
   * 如果 `end` 被省略，则 `slice` 会一直提取到原数组末尾。如果 `end` 大于数组的长度，`slice` 也会一直提取到原数组末尾。
+  * 程序 `tmpPath.slice()` 加入 `.slice()`  ，是考虑 `res.push(tmpPath)` 。若使用 `backTrack(tmpPath)` ，那最后加入数组 res 的就是数组 tmpPath 的头指针，而不是 tmpPath 数组元素组成的数组。
 
 
 
