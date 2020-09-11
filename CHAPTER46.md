@@ -1,6 +1,6 @@
 ### [46. 全排序](https://leetcode-cn.com/problems/permutations/)
 
-##### 思路：递归回溯
+##### 思路：递归剪枝
 
 ![图片来源：笨猪爆破组](https://pic.leetcode-cn.com/aa061a6233fa2bd640b4e1416c12dceceb0c4b4e6f2610240740a3cb6ea1496c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200514183911.png)
 
@@ -22,7 +22,7 @@
 
 
 
-##### 思路及代码来源
+##### 思路及代码参考
 
 * [秦时明月：46. 全排序](https://leetcode-cn.com/problems/permutations/solution/46-quan-pai-lie-by-alexer-660/)
 
