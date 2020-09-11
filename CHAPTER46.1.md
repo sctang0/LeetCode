@@ -7,10 +7,9 @@
 
 
 
-##### 题外话
+##### 相关函数简谈
 
 * [arr.slice()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：返回一个**新的数组对象**，原始数组不会被改变。
-
   * 在该题中，`tmpPath.slice()` 返回一个包含数组 tmpPath 所有元素新的数组对象。
 
 
