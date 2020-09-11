@@ -3,7 +3,7 @@
 ##### 思路
 
 *  `res.push(tmpPath)` 与 `res.push(tmpPath.slice())` 有何区别？
-  * 这里 tmpPath 是一个栈结构，最终是 [] 。前者直接将 tmpPath 直接 push 进去，最终结果中的每一个元素都指向同一个栈，所以都是 [] 。后者其实是当前 tmpPath 的一个浅拷贝，最终结果的每一个元素都指向 tmpPath 不同状态的拷贝。
+    * 这里 tmpPath 是一个栈结构，最终是 [] 。前者直接将 tmpPath 直接 push 进去，最终结果中的每一个元素都指向同一个栈，所以都是 [] 。后者其实是当前 tmpPath 的一个浅拷贝，最终结果的每一个元素都指向 tmpPath 不同状态的拷贝。
 
 
 
