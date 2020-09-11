@@ -1,4 +1,4 @@
-##### [backTrack(tmpPath.slice()) 为什么这里要用 arr.slice() ？](https://leetcode-cn.com/problems/permutations/solution/46-quan-xu-lie-by-shu-cheng/586752)
+##### [backTrack(tmpPath.slice()) 为什么这里要用 arr.slice() ？](https://leetcode-cn.com/problems/permutations/solution/46-quan-xu-lie-by-shu-cheng/579219)
 
 ##### 思路
 
