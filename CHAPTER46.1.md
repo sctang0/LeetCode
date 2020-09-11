@@ -1,4 +1,4 @@
-##### backTrack(tmpPath.slice()) 为什么这里要用 arr.slice() ？
+##### [backTrack(tmpPath.slice()) 为什么这里要用 arr.slice() ？](https://leetcode-cn.com/problems/permutations/solution/46-quan-xu-lie-by-shu-cheng/586752)
 
 ##### 思路
 
@@ -16,7 +16,7 @@
 
 ##### 思路参考
 
-* [null 题末回答：46. 全排列](https://leetcode-cn.com/problems/permutations/solution/jspython-hui-su-tao-lu-mo-ban-ti-46-quan-pai-lie-b/)
+* [null 题末回答：46. 全排列](https://leetcode-cn.com/problems/permutations/solution/jspython-hui-su-tao-lu-mo-ban-ti-46-quan-pai-lie-b/367065)
   * 注：上面思路中的逻辑、语言 90% 是照搬过来的。不过，自己并没有把原内容上下文也描述出来，所以吧，还是建议去看一下原作者内容。
 
 
