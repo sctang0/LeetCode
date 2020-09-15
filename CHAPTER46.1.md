@@ -3,7 +3,7 @@
 ##### 思路
 
 *  `res.push(tmpPath)` 与 `res.push(tmpPath.slice())` 有何区别？
-    
+   
     * 这里 tmpPath 是一个栈结构，最终是 [] 。前者直接将 tmpPath 直接 push 进去，最终结果中的每一个元素都指向同一个栈，所以都是 [] 。后者其实是当前 tmpPath 的一个浅拷贝，最终结果的每一个元素都指向 tmpPath 不同状态的拷贝。
     
 * 在浅拷贝的介绍中说，浅拷贝得到的数组，与原数组共用同一个内存地址。如果其中一个对象改变了这个地址，就会影响到另一个对象。既然如此，为何最后能够输出不同的结果呢？明明共用同一个内存地址。
@@ -23,7 +23,7 @@
 ##### 相关函数简谈
 
 * [arr.slice()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：返回一个**数组对象的浅拷贝**，原始数组不会被改变。
-  * 在该题中，`tmpPath.slice()` 返回一个包含数组 tmpPath 所有元素新的数组对象。
+  * 在该题中，`tmpPath.slice()` 返回一个包含数组 tmpPath 所有元素的浅拷贝。
 
 
 
@@ -48,10 +48,14 @@
 * [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
 * [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
 
+
+
+
 ##### 图片来源
 
 * [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
 * [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
+
 
 
 
