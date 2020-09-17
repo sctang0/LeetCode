@@ -19,4 +19,5 @@
 * [52. N皇后 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER52.md)
 * [53. 最大子序之和](https://github.com/sctang0/LeetCode/blob/master/CHAPTER53.md)
 * [54. 螺旋矩阵 - 螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER54.md)
+* [55. 跳跃游戏](https://github.com/sctang0/LeetCode/blob/master/CHAPTER55.md)
 
