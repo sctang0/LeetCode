@@ -10,6 +10,20 @@
 
 
 
+特殊情况：输入的矩阵为空
+
+* 所以，在运行 `let m = matrix[0].length - 1;` 之前，需要先判断矩阵不为空。
+
+* 相关程序：
+
+  * ```javascript
+    let n = matrix.length - 1;
+    if (n < 0) return [];
+    let m = matrix[0].length - 1;
+    ```
+
+
+
 ##### 思路、程序参考
 
 * [cc123nice：54. 旋转矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-ji-yi-li-jie-92100-by-caifeng123/)
@@ -27,7 +41,7 @@ var spiralOrder = function(matrix) {
     let i = 0;
     let j = 0;
     let n = matrix.length - 1;
-    if (n < 0) return []; //测试用例里面可能包含空数组。为了防止 matrix[0].length 报错，于是放在其前面。
+    if (n < 0) return [];
     let m = matrix[0].length - 1;
     let turn = (m == 0) ? 'd' : 'r';
     let boundL = 0;
