@@ -1,5 +1,9 @@
 ### [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
 
+##### 思路
+
+
+
 
 
 ##### 思路、程序来源
@@ -25,3 +29,9 @@ var canJump = function(nums) {
 };
 ```
 
+
+
+##### 复杂度分析
+
+* 时间复杂度：O(n)，`n = nums.length;` 。遍历数组 nums 一遍。
+* 空间复杂度：O(1)
