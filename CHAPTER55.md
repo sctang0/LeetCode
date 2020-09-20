@@ -2,12 +2,20 @@
 
 ##### 思路
 
-* 从右到左遍历 nums ，返回能“到达” nums[nums.length - 1] 的左边最靠近其的数。将下一个数设为该数。如果，最后能到达 nums[0] ，返回 true 否则返回 false 。
+* 将 leftPos 设为 nums.length - 1 。从右至左遍历数组 nums ，当遇到能抵达 nums[leftPos] 的数时，将 leftPos 设为该数下标，并继续向左遍历。结束后，若 leftPos = 0 ，则返回 true ，否则返回 false 。
   * 举例：
     * nums = [ 2, 1, 0, 3 ]
-      * 从右到左遍历。nums[2] = 0 ，到不了 nums[3] 。nums[1] = 1 ，到不了 nums[3] 。同理，nums[0] 。于是，返回 false 。
+      * 从右至左遍历，leftPos = 3 。
+        * nums[2] = 0 ，到不了 nums[3] 。
+        * nums[1] = 1 ，到不了 nums[3] 。
+        * 同理，nums[0] 。
+        * leftPos != 0 ，返回 false 。
     * nums = [ 2, 3, 1, 4 ]
-      * 从右到左遍历。nums[2] = 1 ，能到达 nums[3] ，将 nums[2] 设为要到达“终点”。nums[1] = 3 ，能到达 nums[2] ，将 nums[1] 设为要到达的终点。同理 nums[0] 。最终能到达 nums[0] ，返回 true 。
+      * 从右至左遍历，leftPos = 3 。
+        * nums[2] = 1 ，能到达 nums[3] ，将 leftPos 设为 2 。
+        * nums[1] = 3 ，能到达 nums[2] ，将 leftPos 设为 1 。
+        * nums[0] = 2 ，能到达 nums[1] ，将 leftPos 设为 0 。
+        * leftPos = 0 ，返回 true 。
 
 
 
@@ -46,6 +54,3 @@ var canJump = function(nums) {
 ##### 思路、程序来源
 
 * [秦时明月：55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/solution/55-tiao-yue-you-xi-by-alexer-660/)
-
-
-
