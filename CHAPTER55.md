@@ -1,6 +1,8 @@
-### [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+### [55. 跳跃游戏 - 倒序遍历](https://leetcode-cn.com/problems/jump-game/)
 
 ##### 思路
+
+
 
 
 
