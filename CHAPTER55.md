@@ -51,6 +51,6 @@ var canJump = function(nums) {
 
 
 
-##### 思路、程序来源
+##### 思路、程序参考
 
 * [秦时明月：55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/solution/55-tiao-yue-you-xi-by-alexer-660/)
