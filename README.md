@@ -21,5 +21,5 @@
 * [54. 螺旋矩阵 - 螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER54.md)
 * [55. 跳跃游戏 - 倒序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER55.md)
 
-* [56. 合并区间](https://github.com/sctang0/LeetCode/blob/master/CHAPTER56.md)
+* [56. 合并区间 - 顺序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER56.md)
 
