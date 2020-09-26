@@ -102,9 +102,9 @@ var insert = function(intervals, newInterval) {
                   }
                   return result;
               };
-            ```
+          ```
     
-    * 复杂度分析:
+    * 复杂度分析(2020.09.26, 下同):
     
         * 执行用时: 击败 6.16% 用户.
         * 内存消耗: 击败 5.43% 用户.
