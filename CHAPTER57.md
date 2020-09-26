@@ -11,7 +11,7 @@
             intervals.sort((a, b) => a[0] - b[0]);
             ```
 
-* 区间合并的思路, 与[56. 区间合并](https://leetcode-cn.com/problems/merge-intervals/solution/56-he-bing-qu-jian-shun-xu-bian-li-by-shu-cheng/)相同.
+* 区间合并, 思路与[56. 区间合并](https://leetcode-cn.com/problems/merge-intervals/solution/56-he-bing-qu-jian-shun-xu-bian-li-by-shu-cheng/)相同.
 
 
 
