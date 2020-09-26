@@ -62,47 +62,46 @@ var insert = function(intervals, newInterval) {
     * 相关语句:
 
         * ```javascript
-            /**
-             * @param {number[][]} intervals
-             * @param {number[]} newInterval
-             * @return {number[][]}
-             */
-            var insert = function(intervals, newInterval) {
-                let j = 0;
-                let i = 0;
-                let result = [];
-                let tmpIntervals = [];
-                let len = intervals.length;
-                if (len == 0) {
-                    intervals.push(newInterval);
-                    return intervals;
-                }
-                while(i < len) {
-                if (intervals[i][0] >= newInterval[0] && j == 0) {
-                        tmpIntervals.push(newInterval);
-                    j = 1;
-                    }
-                    tmpIntervals.push(intervals[i]);
-                if (i == len - 1 && j == 0) {
-                        tmpIntervals.push(newInterval);
-                }
-                    i++;
-                }
-                console.log(tmpIntervals);
-                i = 0;
-                len = tmpIntervals.length;
-                while (i < len) {
-                    let currLeft = tmpIntervals[i][0];
-                    let currRight = tmpIntervals[i][1];
-                    while (i < len - 1 && tmpIntervals[i+1][0] <= currRight) {
-                        i++;
-                        currRight = Math.max(tmpIntervals[i][1], currRight);
-                    }
-                    result.push([currLeft, currRight]);
-                    i++;
-                }
-                return result;
-            };
+              /**
+               * @param {number[][]} intervals
+               * @param {number[]} newInterval
+               * @return {number[][]}
+               */
+              var insert = function(intervals, newInterval) {
+                  let j = 0;
+                  let i = 0;
+                  let result = [];
+                  let tmpIntervals = [];
+                  let len = intervals.length;
+                  if (len == 0) {
+                      intervals.push(newInterval);
+                      return intervals;
+                  }
+                  while(i < len) {
+                      if (intervals[i][0] >= newInterval[0] && j == 0) {
+                          tmpIntervals.push(newInterval);
+                          j = 1;
+                      }
+                      tmpIntervals.push(intervals[i]);
+                      if (i == len - 1 && j == 0) {
+                              tmpIntervals.push(newInterval);
+                      }
+                      i++;
+                  }
+                  i = 0;
+                  len = tmpIntervals.length;
+                  while (i < len) {
+                      let currLeft = tmpIntervals[i][0];
+                      let currRight = tmpIntervals[i][1];
+                      while (i < len - 1 && tmpIntervals[i+1][0] <= currRight) {
+                          i++;
+                          currRight = Math.max(tmpIntervals[i][1], currRight);
+                      }
+                      result.push([currLeft, currRight]);
+                      i++;
+                  }
+                  return result;
+              };
             ```
     
     * 复杂度分析:
