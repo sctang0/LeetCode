@@ -8,6 +8,10 @@
 
 
 
+* [continue](https://www.w3school.com.cn/js/js_break.asp): “跳过”循环中的一个迭代, 然后继续循环中的下一个迭代.
+
+
+
 * [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
   * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
 

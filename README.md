@@ -24,4 +24,4 @@
 * [57. 插入区间 - 顺序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.md)
     * [57.1 插入区间 - while() 插入数组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.1.md)
 
-* [58. 最后一个单词的长度](https://github.com/sctang0/LeetCode/blob/master/CHAPTER58.md)
+* [58. 最后一个单词的长度 - 倒序遍历, 双指针](https://github.com/sctang0/LeetCode/blob/master/CHAPTER58.md)
