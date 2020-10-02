@@ -24,4 +24,5 @@
 * [57. 插入区间 - 顺序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.md)
     * [57.1 插入区间 - while() 插入数组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.1.md)
 * [58. 最后一个单词的长度 - 倒序遍历, 双指针](https://github.com/sctang0/LeetCode/blob/master/CHAPTER58.md)
-* [59. 螺旋矩阵 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.md)
+* [59. 螺旋矩阵 ii - 螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.md)
+    * [59.1. else 移除后为何会报错呢?](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.1.md)
