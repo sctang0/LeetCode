@@ -78,7 +78,7 @@ var generateMatrix = function(n) {
 
 
 
-##### 思路参考
+##### 相关参考
 
 * [JavaScript - cannot set property of underfined](https://stackoverflow.com/questions/7479520/javascript-cannot-set-property-of-undefined)
 * [Uncaught TypeError: Cannot set property '0' of undefined](https://stackoverflow.com/questions/10673237/uncaught-typeerror-cannot-set-property-0-of-undefined)
