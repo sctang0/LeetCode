@@ -26,3 +26,4 @@
 * [58. 最后一个单词的长度 - 倒序遍历, 双指针](https://github.com/sctang0/LeetCode/blob/master/CHAPTER58.md)
 * [59. 螺旋矩阵 ii - 螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.md)
     * [59.1. else 移除后为何会报错呢?](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.1.md)
+* [60. 第 k 个排序 - 直达](https://github.com/sctang0/LeetCode/blob/master/CHAPTER60.md)

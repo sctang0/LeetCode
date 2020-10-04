@@ -12,15 +12,6 @@
 
 
 
-* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
-  * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
-
-
-
-* [parseInt(string, radix)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt)：从给定的字符串中解析出的一个整数。
-
-
-
 * [Math.floor(x) ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)：`x` 为一个数字，方法返回小于或等于 `x` 的最大整数。
 
 
@@ -39,7 +30,16 @@
 
 
 
-* [arr.pop()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)：`**pop()**`方法从数组中删除最后一个元素，并返回该元素的值。此方法更改数组的长度。
+* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
+    * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
+
+
+
+* [parseInt(string, radix)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt)：从给定的字符串中解析出的一个整数。
+
+
+
+* [arr.pop()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)：`pop()`方法从数组中删除最后一个元素，并返回该元素的值。此方法更改数组的长度。
   * 此方法更改数组 `arr` ，变为不包含数组最后一个元素的数组（若 `arr.length>=1`）。
 
 
@@ -64,6 +64,30 @@
   * compareFunction（可选）：用来指定按某种顺序进行排列的函数。
   * 返回值：排序后的数组。请注意，数组已原地排序，并且不进行复制。
   * 注：由于它取决于具体实现，因此无法保证排序的时间和空间复杂性。
+
+
+
+* [array.splice(start, deleteCount, item1, item2, ...)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): 通过删除, 替换, 添加来修改原数组.
+
+    * `start` : 修改开始的位置(从0计数).
+
+    * `deleteCount(可选)` : 整数, 表示要移除的数组元素的个数.
+
+    * `item1, item2, ... (可选)` : 要添加进数组的元素, 从 `start` 位置开始. 如果不指定, 则 `splice()` 将只删除数组元素.
+
+    * 返回值 : 由被删除元素组成的一个数组.
+
+    * ```javascript
+        const months = ['Jan', 'March', 'April', 'June'];
+        months.splice(1, 0, 'Feb');
+        console.log(months);
+        // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+        
+        months.splice(4, 1, 'May');
+        console.log(months);
+        // expected output: Array ["Jan", "Feb", "March", "April", "May"]
+        
+        ```
 
 
 
