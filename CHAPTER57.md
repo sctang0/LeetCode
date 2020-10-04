@@ -1,4 +1,4 @@
-### [57. 插入区间 - 顺序遍历](https://leetcode-cn.com/problems/insert-interval/)
+### [57. 插入区间-顺序遍历](https://leetcode-cn.com/problems/insert-interval/)
 
 ##### 思路
 

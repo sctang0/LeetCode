@@ -1,4 +1,4 @@
-### [56. 合并区间 - 顺序遍历](https://leetcode-cn.com/problems/merge-intervals/)
+### [56. 合并区间-顺序遍历](https://leetcode-cn.com/problems/merge-intervals/)
 
 ##### 思路
 

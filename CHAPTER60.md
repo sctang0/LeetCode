@@ -1,4 +1,4 @@
-### [60. 第 k 个排序 - 直达](https://leetcode-cn.com/problemset/all/)
+### [60. 第 k 个排序-直达](https://leetcode-cn.com/problemset/all/)
 
 ##### 思路
 

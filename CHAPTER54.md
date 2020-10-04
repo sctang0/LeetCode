@@ -1,4 +1,4 @@
-### [54. 螺旋矩阵 - 螺旋遍历](https://leetcode-cn.com/problems/spiral-matrix/)
+### [54. 螺旋矩阵-螺旋遍历](https://leetcode-cn.com/problems/spiral-matrix/)
 
 ##### 思路
 

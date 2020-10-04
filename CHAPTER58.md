@@ -1,4 +1,4 @@
-### [58. 最后一个单词的长度 - 倒序遍历, 双指针](https://leetcode-cn.com/problems/length-of-last-word/)
+### [58. 最后一个单词的长度-倒序遍历, 双指针](https://leetcode-cn.com/problems/length-of-last-word/)
 
 ##### 思路一: 倒序遍历
 
