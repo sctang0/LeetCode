@@ -27,3 +27,4 @@
 * [59. 螺旋矩阵 ii-螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.md)
     * [59.1. else 移除后为何会报错呢?](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.1.md)
 * [60. 第 k 个排序-直达](https://github.com/sctang0/LeetCode/blob/master/CHAPTER60.md)
+* [61. 旋转链表-链表转环](https://github.com/sctang0/LeetCode/blob/master/CHAPTER61.md)
