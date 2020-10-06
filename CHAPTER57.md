@@ -1,5 +1,20 @@
 ### [57. 插入区间-顺序遍历](https://leetcode-cn.com/problems/insert-interval/)
 
+##### 题目描述
+
+* 给出一个无重叠的 ，按照区间起始端点排序的区间列表。
+
+* 在列表中插入一个新的区间，你需要确保列表中的区间仍然有序且不重叠（如果有必要的话，可以合并区间）。
+
+* 示例：
+
+    * ```example
+        输入：intervals = [ [ 1, 3 ], [ 6, 9 ] ], newInterval = [ 2, 5 ]
+        输出：[ [ 1, 5 ], [ 6, 9 ] ]
+        ```
+
+
+
 ##### 思路
 
 * 将数组 newIntervals 添加到 intervals 末尾. 并对添加后的 intervals 数组进行排序.
