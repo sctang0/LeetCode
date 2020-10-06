@@ -30,19 +30,6 @@
 
 
 
-##### 题外话
-
-* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
-  * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
-
-
-
-##### 参考
-
-* [秦时明月：50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/solution/50-powx-n-by-alexer-660/)
-
-
-
 ```javascript
 /**
  * @param {number} x
@@ -77,6 +64,19 @@ var myPow = function(x, n) {
 
 
 
+##### 题外话
+
+* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
+    * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
+
+
+
+##### 参考
+
+* [秦时明月：50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/solution/50-powx-n-by-alexer-660/)
+
+
+
 #### 思路二：迭代
 
 * 相较于思路一，将乘的过程优化了。如下：
@@ -88,18 +88,6 @@ var myPow = function(x, n) {
     * `x = x^2 = 2^2; n = parseInt(n/2) = parseInt(5/2);` ...
     *  当 `n = 1` 时，`x = 16`
     * `return x * xTmp;` ，即 `return 16 * 2`
-
-
-
-##### 题外话
-
-* [parseInt(string, radix)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt)：从给定的字符串中解析出的一个整数。
-
-
-
-##### 思路、程序参考
-
-* [秦时明月：50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/solution/50-powx-n-by-alexer-660/)
 
 
 
@@ -136,3 +124,15 @@ var myPow = function(x, n) {
 
 * 时间复杂度：O(logn)，n 为幂函数中的指数。
 * 空间复杂度：O(1)
+
+
+
+##### 题外话
+
+* [parseInt(string, radix)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt)：从给定的字符串中解析出的一个整数。
+
+
+
+##### 思路、程序参考
+
+* [秦时明月：50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/solution/50-powx-n-by-alexer-660/)

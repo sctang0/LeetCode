@@ -74,13 +74,6 @@
 
 
 
-##### 思路、程序参考
-
-* [画手大鹏：53. 最大子序之和](https://leetcode-cn.com/problems/maximum-subarray/solution/hua-jie-suan-fa-53-zui-da-zi-xu-he-by-guanpengchn/)
-* [秦时明月：53. 最大子序之和](https://leetcode-cn.com/problems/maximum-subarray/solution/53-zui-da-zi-xu-he-by-alexer-660/)
-
-
-
 ```javascript
 /**
  * @param {number[]} nums
@@ -107,3 +100,10 @@ var maxSubArray = function(nums) {
 
 * 时间复杂度：O(n)，n 为数组 nums 长度。遍历数组一次的时间复杂度。
 * 空间复杂度：O(1)
+
+
+
+##### 思路、程序参考
+
+* [画手大鹏：53. 最大子序之和](https://leetcode-cn.com/problems/maximum-subarray/solution/hua-jie-suan-fa-53-zui-da-zi-xu-he-by-guanpengchn/)
+* [秦时明月：53. 最大子序之和](https://leetcode-cn.com/problems/maximum-subarray/solution/53-zui-da-zi-xu-he-by-alexer-660/)

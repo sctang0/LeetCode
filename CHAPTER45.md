@@ -38,10 +38,6 @@
 
 
 
-##### 思路及程序来源：
-
-* [秦时明月：45. 跳跃游戏ii](https://leetcode-cn.com/problems/jump-game-ii/solution/45-tiao-yue-you-xi-ii-by-alexer-660/)
-
 ```javascript
 /**
  * @param {number[]} nums
@@ -72,3 +68,9 @@ var jump = function(nums) {
 
 * 时间复杂度：O(n)，n 为数组 nums 的长度。
 * 空间复杂度：O(1)
+
+
+
+##### 思路及程序来源：
+
+* [秦时明月：45. 跳跃游戏ii](https://leetcode-cn.com/problems/jump-game-ii/solution/45-tiao-yue-you-xi-ii-by-alexer-660/)

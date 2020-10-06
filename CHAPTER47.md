@@ -28,12 +28,6 @@
 
 
 
-##### 思路及程序参考
-
-* [秦时明月：47. 全排序 ii](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)
-
-
-
 ```javascript
 /**
  * @param {number[]} nums
@@ -70,3 +64,9 @@ var permuteUnique = function(nums) {
 
 * 时间复杂度：O(n!)。n 为数组 `nums` 的长度。`n!` 也为 `nums` 可以形成的全排序的个数。虽然重复的项不会计入结果，可也还是会有一次判断。
 * 空间复杂度：最坏空间复杂度，O(n!)。最好空间复杂度，O(1)，此时 `nums` 数组元素全部相同。n 为数组 `nums` 长度。（很可能是错的，不知道如何计算，于是 LeetCode 的题解也没有写这个。）
+
+
+
+##### 思路及程序参考
+
+* [秦时明月：47. 全排序 ii](https://leetcode-cn.com/problems/permutations-ii/solution/47-quan-pai-lie-ii-by-alexer-660/)

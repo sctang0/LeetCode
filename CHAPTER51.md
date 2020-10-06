@@ -72,13 +72,6 @@
 
 
 
-##### 思路、程序参考
-
-* [秦时明月：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
-* [力扣(LeetCode)：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/)
-
-
-
 ```javascript
 /**
  * @param {number} n
@@ -144,3 +137,9 @@ var solveNQueens = function(n) {
 * 时间复杂度：O(n!)，n 为棋盘边的长度。n! 为该题递归遍历次数的上界。
 * 空间复杂度：O(n^3)，n 为棋盘边的长度。输出的 results 不确定包含多少个数组，每个数组包含 n 个字符串，每个字符串 n 个字符。
 
+
+
+##### 思路、程序参考
+
+* [秦时明月：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
+* [力扣(LeetCode)：51. N 皇后](https://leetcode-cn.com/problems/n-queens/solution/nhuang-hou-by-leetcode/)
