@@ -74,7 +74,7 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
 
 ##### 复杂度分析
 
-* 时间复杂度: O(n * m). `dp[i][j] = dp[i - 1][j] + dp[i][j - 1];` 运行了 ( n - 1 ) * ( m - 1 ) 次.
+* 时间复杂度: O(n * m). `dp[i][j] = dp[i - 1][j] + dp[i][j - 1];` 最多运行了 ( n - 1 ) * ( m - 1 ) 次.
 * 空间复杂度: O(n * m). 二维数组 `dp` 包含 `n` 个一维数组, 每个一维数组里有 `m` 个元素.
 
 
