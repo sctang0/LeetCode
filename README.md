@@ -30,4 +30,5 @@
 * [61. 旋转链表-链表转环](https://github.com/sctang0/LeetCode/blob/master/CHAPTER61.md)
 * [62. 不同路径-排列组合, 动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER62.md)
 * [63. 不同路径 II-动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER63.md)
+* [64. 最小路径和-动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER64.md)
 
