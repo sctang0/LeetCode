@@ -41,24 +41,6 @@
 
 
 
-##### 思路参考
-
-* [null 题末回答：46. 全排列](https://leetcode-cn.com/problems/permutations/solution/jspython-hui-su-tao-lu-mo-ban-ti-46-quan-pai-lie-b/367065)
-  * 注：上面思路中前一小点的逻辑、语言 90% 是照搬过来的。不过，自己并没有把原内容上下文也描述出来，所以吧，还是建议去看一下原作者内容。
-* [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
-* [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
-
-
-
-
-##### 图片来源
-
-* [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
-* [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
-
-
-
-
 ##### 程序
 
 * 使用控制台输出 console.log() 。看一下，不使用 arr.slice() 情况下的输出情况。
@@ -111,3 +93,20 @@ var permute = function(nums) {
      ]
  */
 ```
+
+
+
+##### 思路参考
+
+* [null 题末回答：46. 全排列](https://leetcode-cn.com/problems/permutations/solution/jspython-hui-su-tao-lu-mo-ban-ti-46-quan-pai-lie-b/367065)
+  * 注：上面思路中前一小点的逻辑、语言 90% 是照搬过来的。不过，自己并没有把原内容上下文也描述出来，所以吧，还是建议去看一下原作者内容。
+* [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
+* [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
+
+
+
+
+##### 图片来源
+
+* [浪里行舟：深拷贝、浅拷贝](https://juejin.im/post/6844904197595332622)
+* [飞鱼先生：数据结构与算法 - 栈及递归](https://juejin.im/post/6844904129605828615)
