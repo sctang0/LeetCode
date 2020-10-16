@@ -30,6 +30,10 @@
 
 
 
+* [Number()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number): 当作为一个函数使用时, `Number(value)` 会将 `value` 转换为数字类型. 如果值不能被转换, 就返回 `NaN` .
+
+
+
 * [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
     * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
 
@@ -67,6 +71,10 @@
 
 
 
+* [arr.split()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split): 使用指定的分隔符字符串将 `arr` 对象分割成子字符串数组.
+
+
+
 * [array.splice(start, deleteCount, item1, item2, ...)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): 通过删除, 替换, 添加来修改原数组.
 
     * `start` : 修改开始的位置(从0计数).
@@ -88,6 +96,10 @@
         // expected output: Array ["Jan", "Feb", "March", "April", "May"]
         
         ```
+
+
+
+* [arr.trim()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/Trim): 删除字符串 `arr` 两端的空格字符.
 
 
 
