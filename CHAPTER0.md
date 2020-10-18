@@ -12,6 +12,19 @@
 
 
 
+* [arr.fill()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill): 用一个固定值填充一个数组中从起始索引到终止索引内的全部元素。
+
+    * ```javascript
+        let tmp = [ 1, 2, 3 ];
+        tmp = tmp.fill(0);
+        console.log(tmp);
+        /**
+         * stdout: [ 0, 0, 0 ]
+         */
+        ```
+
+
+
 * [Math.floor(x) ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)：`x` 为一个数字，方法返回小于或等于 `x` 的最大整数。
 
 
