@@ -13,7 +13,7 @@
         * ```javascript
             输入: [ 1, 2, 3 ]
             输出: [ 1, 2, 4 ]
-            解释: 输入数组表示数字 123 。
+            解释: 输入数组表示数字 123。
             ```
 
 
@@ -45,33 +45,33 @@ var plusOne = function(digits) {
         }
         i --;
     }
-    let res = Array(digits.length + 1).fill(0);
-    res[0] = 1;
-    return res;
+    digits.unshift(1);
+    return digits;
 };
 ```
 
 ##### 复杂度分析
 
-* 时间复杂度: O(n) , `n = digits.length` . 
+* 时间复杂度: O(n) , `n = digits.length` .
     * 最好时间复杂度 O(1) . 此时, 数组 `digits` 的末尾元素不为 9 .
-    * 最坏时间复杂度 O(n) . 此时, 数组 `digist` 的元素全为 9 .
+    * 最坏时间复杂度 O(n) . 此时, 数组 `digist` 的元素全为 9 . [`arr.unshift()`](https://tc39.es/ecma262/#sec-array.prototype.unshift) 方法调用的时间复杂度为 O(n) .
     * 平均时间复杂度 O(n) .
 * 空间复杂度:
     * O(1) . 此时, 数组 `digits` 元素不全为 9 .
-    * O(n) , `n = digits.length + 1` . 此时, 数组 `digits` 元素全为 9 .
+    * O(n) , `n = digits.length + 1` . 此时, 数组 `digits` 元素全为 9 . [`arr.unshift()`](https://tc39.es/ecma262/#sec-array.prototype.unshift) 方法调用的空间复杂度为 O(n) .
 
 
 
 ##### 题外话
 
-* [arr.fill()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill): 用一个固定值填充一个数组中从起始索引到终止索引内的全部元素。
+* [arr.unshift()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift): 将一个或多个元素添加到数组的开头.
 
     * ```javascript
         let tmp = [ 1, 2, 3 ];
-        tmp = tmp.fill(0);
+        tmp.unshift('a', 'b');
         console.log(tmp);
+        
         /**
-         * stdout: [ 0, 0, 0 ]
+         * stdout: [ "a", "b", 1, 2, 3 ]
          */
         ```

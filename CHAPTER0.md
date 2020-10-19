@@ -116,6 +116,20 @@
 
 
 
+* [arr.unshift()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift): 将一个或多个元素添加到数组的开头.
+
+    * ```javascript
+        let tmp = [ 1, 2, 3 ];
+        tmp.unshift('a', 'b');
+        console.log(tmp);
+        
+        /**
+         * stdout: [ "a", "b", 1, 2, 3 ]
+         */
+        ```
+
+
+
 ##### 概念
 
 * [浅拷贝](https://juejin.im/post/6844904197595332622)：浅拷贝是创建一个新对象，这个对象有着原始对象属性值的一份精确拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的就是内存地址 ，所以如果其中一个对象改变了这个地址，就会影响到另一个对象。
