@@ -33,4 +33,5 @@
 * [64. 最小路径和-动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER64.md)
 * [65. 有效数字-数据类型判断, 分组判断](https://github.com/sctang0/LeetCode/blob/master/CHAPTER65.md)
 * [66. 加一-倒序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER66.md)
+* [67. 二进制求和-逐级相加](https://github.com/sctang0/LeetCode/blob/master/CHAPTER67.md)
 
