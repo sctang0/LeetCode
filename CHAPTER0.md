@@ -2,7 +2,7 @@
 
 ##### 方法
 
-* [str.charCodeAt(index)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)：指定 `index` 处字符( `str[index]` )的 UTF-16 代码单元值的一个数字；如果 `index` 超出范围，`charCodeAt()` 返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
+* [str.charCodeAt(index)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)：指定 `index` 处字符( `str[index]` )的 UTF-16 代码单元值的一个数字；如果 `index` 超出范围，`charCodeAt()` 返回 `NaN` 。
   * `index`：一个大于等于 `0`，小于字符串长度的整数。如果不是一个数值，则默认为 `0`。
   * 注：在历史版本中（如 JavaScript 1.2），`charCodeAt` 返回一个数字，表示给定 index 处字符的 ISO-Latin-1 编码值。ISO-Latin-1 编码集范围从 `0` 到 `255`。开头的 `0` 到 `127` 直接匹配 ASCII 字符集。
 
@@ -29,11 +29,11 @@
 
 
 
-* [arr.includes()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)：方法用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回 true，否则返回false。
+* [arr.includes()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)：方法用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回 `true` ，否则返回 `false` 。
 
 
 
-* [arr.join()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/join)：将一个数组（或一个[类数组对象](https://developer.mozilla.org/zh-CN//docs/Web/JavaScript/Guide/Indexed_collections#Working_with_array-like_objects)）的所有元素连接成一个字符串并返回这个字符串。
+* [arr.join()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/join)：将一个数组（或一个类数组对象）的所有元素连接成一个字符串并返回这个字符串。
 
   * ```javascript
     const elements = ['Fire', 'Air', 'Water'];
@@ -47,12 +47,12 @@
 
 
 
-* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 [`NaN`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)。
+* [parseFloat(string)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)：给定值被解析成浮点数。如果给定值不能被转换成数值，则会返回 `NaN` 。
     * 注：js 数字只有 Number 类型，双精度浮点数存储在 2 的 -53 次方到 2 的 53 次方之间。
 
 
 
-* [parseInt(string, radix)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt)：从给定的字符串中解析出的一个整数。
+* [parseInt(string, redix(可选))](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/parseInt): 解析一个字符串并返回指定基数的十进制整数.
 
 
 
@@ -67,18 +67,30 @@
 
 
 
+* [arr.reverse()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse): 将数组中元素的位置颠倒，并返回该数组.
+
+    * ```javascript
+        let tmp = [ "one", "two", "three" ];
+        console.log(tmp.reverse());
+        /**
+         * stdout: [ "three", "two", "one" ]
+         */
+        ```
+
+
+
 * [arr.shift()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)：从数组中删除第一个元素，并返回该元素的值。此方法更改数组的长度。从数组中删除的元素; 如果数组为空则返回 undefined 。
 
 
 
-* [arr.slice(begin, end)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的**浅拷贝**（包括 `begin`，不包括`end`）。原始数组不会被改变。
+* [arr.slice(begin, end)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)：方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的浅拷贝（包括 `begin`，不包括`end`）。原始数组不会被改变。
   * 如果省略 `begin`，则 `slice` 从索引 `0` 开始。如果 `begin` 大于原数组的长度，则会返回空数组。
   * 如果 `end` 被省略，则 `slice` 会一直提取到原数组末尾。如果 `end` 大于数组的长度，`slice` 也会一直提取到原数组末尾。
 
 
 
 * [arr.sort([compareFunction])](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)：用[原地算法](https://juejin.im/entry/6844903507439419399#comment)对数组的元素进行排序，并返回数组。上方程序中的是以一维数组中的第一个元素为参考，来进行升序排序。
-  * compareFunction（可选）：用来指定按某种顺序进行排列的函数。
+  * `compareFunction`（可选）：用来指定按某种顺序进行排列的函数。
   * 返回值：排序后的数组。请注意，数组已原地排序，并且不进行复制。
   * 注：由于它取决于具体实现，因此无法保证排序的时间和空间复杂性。
 
@@ -132,10 +144,14 @@
 
 ##### 概念
 
+* [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92): 为避免多次解决重复的子问题, 结果会被都逐渐计算并保存.
+
+
+
 * [浅拷贝](https://juejin.im/post/6844904197595332622)：浅拷贝是创建一个新对象，这个对象有着原始对象属性值的一份精确拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的就是内存地址 ，所以如果其中一个对象改变了这个地址，就会影响到另一个对象。
   * 深拷贝：将一个对象从内存中完整的拷贝一份出来,从堆内存中开辟一个新的区域存放新对象,且修改新对象不会影响原对象。
-  * <img src="https://user-gold-cdn.xitu.io/2020/3/1/170965259fb768fd?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="浅拷贝" width="569" />
-  * <img src="https://user-gold-cdn.xitu.io/2020/3/1/1709652a7948d1b8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="深拷贝" width="569" />
+  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.3" alt="浅拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
+  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.4" alt="深拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
 
 
 
@@ -146,5 +162,9 @@
 * [栈结构](https://juejin.im/post/6844904129605828615)：一个递归函数，在函数执行过程中，需要多次进行自我调用，在高级语言程序中，调用函数和被调用函数之间的链接与信息交换都是通过栈来进行。
   * 为了保证递归函数的正确执行，系统就要建立一层一层的的工作栈，每层工作栈保留了所有的实参，局部变量，以及上一层的返回地址，形成工作记录压入栈顶，就形成了递归工作栈。
   * 举例：
-    * <img src="https://user-gold-cdn.xitu.io/2020/4/16/1718361ee0e4e060?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="递归工作栈: 程序" width="300" />
-    * <img src="https://user-gold-cdn.xitu.io/2020/4/16/171836205787161b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="递归工作栈: 图片表示" width="375" />
+    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.1" alt="递归工作栈: 程序 来源: https://juejin.im/post/6844904129605828615" width="300" />
+    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.2" alt="递归工作栈: 图片表示 来源: https://juejin.im/post/6844904129605828615" width="375" />
+
+
+
+* [运算符优先级](https://baike.baidu.com/item/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7)
