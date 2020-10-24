@@ -18,9 +18,9 @@
 
 ##### 思路: 链表转环
 
-![chapter61](https://pic.leetcode-cn.com/221a9b004ce8b55e7e190789711850154408609d1af11881e48680c65f5e32f1-file_1597038479852)
-
-
+<div align = center>
+    <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter61.gif" alt="图片来源: 一个歪卜: 61. 旋转链表" width="70%" />
+</div>
 
 ```javascript
 /**
