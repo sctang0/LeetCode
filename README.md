@@ -35,4 +35,5 @@
 * [66. 加一-倒序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER66.md)
 * [67. 二进制求和-逐级相加](https://github.com/sctang0/LeetCode/blob/master/CHAPTER67.md)
 * [68. 文本左右对齐-逐层递归](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.md)
+    * [68.1 递归算法模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.1.md)
 
