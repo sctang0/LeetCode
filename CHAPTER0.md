@@ -57,7 +57,7 @@
 
 
 * [arr.pop()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)：`pop()`方法从数组中删除最后一个元素，并返回该元素的值。此方法更改数组的长度。
-  * 此方法更改数组 `arr` ，变为不包含数组最后一个元素的数组（若 `arr.length>=1`）。
+  * 此方法更改数组 `arr` ，变为不包含数组最后一个元素的数组（若 `arr.length >= 1`）。
 
 
 
@@ -124,6 +124,11 @@
 
 
 
+* [Math.sqrt(number)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt): 返回数 `number` 的平方根.
+    * [Math.sqrt()](https://github.com/v8/v8/blob/master/test/mjsunit/math-sqrt.js) Chrome v8 程序链接
+
+
+
 * [arr.trim()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/Trim): 删除字符串 `arr` 两端的空格字符.
 
 
@@ -145,6 +150,11 @@
 ##### 概念
 
 * [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92): 为避免多次解决重复的子问题, 结果会被都逐渐计算并保存.
+
+
+
+* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://en.citizendium.org/images/math/f/d/0/fd05d8d90456c441c8f10641bd8576bc.png) .
+    * a method for finding where a function obtains the value zero, or in other words, solving the equation ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter69.3.png).
 
 
 
