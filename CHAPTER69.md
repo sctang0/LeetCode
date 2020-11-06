@@ -138,7 +138,7 @@ var mySqrt = function (x) {
 
 ##### 题外话
 
-* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter68.3.png) .
+* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter69.3.png) .
 
 
 
