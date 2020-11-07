@@ -35,7 +35,7 @@
         * 平方根在 `mid` 左侧, 或等于 `mid` .
         * 缩小范围 `right = mid; mid = Math.floor((left + right) / 2);`
             * 没有单独列出一种情况 `mid * mid == x` . 是因为, 出现 `mid * mid == x` 为 `true` 的概率不大. 若为此在循环中, 多加入一行判断语句, 会有点得不偿失.
-    * 若 `x` 没有平方根. 即, 当 `right - left <= 1` 时, 输出 `left` .
+    * 当 `right - left <= 1` 时, 输出 `left` .
 
 * 递归的程序实现
 
