@@ -1,42 +1,46 @@
-# LeetCode
-[LeetCode](https://leetcode-cn.com/problemset/all/) 问题回答的合集。
+### [Time Complexity for Javascript Methods in V8](https://stackoverflow.com/questions/15622248/time-complexity-for-javascript-methods-in-v8)
 
-个人也是踩在了前人的肩膀上。题解中的思路和程序，很多都是借鉴别人的。当然，我也注明了来源。
+* Ask by: [*Chris Redford*](https://stackoverflow.com/users/130427/chris-redford)
+
+I know that the Javascript standard does not specify required time complexities for methods like array `unshift` but is there a reference for time complexities in a specific Javascript engine like V8?
 
 
 
-#### 目录：
+* Answer by: [*Gsamaras*](https://stackoverflow.com/users/2411320/gsamaras)
 
-* [0. 题外话合集](https://github.com/sctang0/LeetCode/blob/master/CHAPTER0.md)
-* [45. 跳跃游戏 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER45.md)
-* [46. 全排序](https://github.com/sctang0/LeetCode/blob/master/CHAPTER46.md)
-  * [46.1 arr.slice() 的使用](https://github.com/sctang0/LeetCode/blob/master/CHAPTER46.1.md)
-* [47. 全排序 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER47.md)
-* [48. 旋转图像](https://github.com/sctang0/LeetCode/blob/master/CHAPTER48.md)
-* [49. 字符串异位词分组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER49.md)
-* [50. Pow(x, n)](https://github.com/sctang0/LeetCode/blob/master/CHAPTER50.md)
-* [51. N皇后](https://github.com/sctang0/LeetCode/blob/master/CHAPTER51.md)
-* [52. N皇后 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER52.md)
-* [53. 最大子序之和](https://github.com/sctang0/LeetCode/blob/master/CHAPTER53.md)
-* [54. 螺旋矩阵-螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER54.md)
-* [55. 跳跃游戏-倒序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER55.md)
-* [56. 合并区间-顺序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER56.md)
-* [57. 插入区间-顺序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.md)
-    * [57.1 插入区间-while() 插入数组](https://github.com/sctang0/LeetCode/blob/master/CHAPTER57.1.md)
-* [58. 最后一个单词的长度-倒序遍历, 双指针](https://github.com/sctang0/LeetCode/blob/master/CHAPTER58.md)
-* [59. 螺旋矩阵 ii-螺旋遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.md)
-    * [59.1. else 移除后为何会报错呢?](https://github.com/sctang0/LeetCode/blob/master/CHAPTER59.1.md)
-* [60. 第 k 个排序-直达](https://github.com/sctang0/LeetCode/blob/master/CHAPTER60.md)
-* [61. 旋转链表-链表转环](https://github.com/sctang0/LeetCode/blob/master/CHAPTER61.md)
-* [62. 不同路径-排列组合, 动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER62.md)
-* [63. 不同路径 II-动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER63.md)
-* [64. 最小路径和-动态规划](https://github.com/sctang0/LeetCode/blob/master/CHAPTER64.md)
-* [65. 有效数字-数据类型判断, 分组判断](https://github.com/sctang0/LeetCode/blob/master/CHAPTER65.md)
-* [66. 加一-倒序遍历](https://github.com/sctang0/LeetCode/blob/master/CHAPTER66.md)
-* [67. 二进制求和-逐级相加](https://github.com/sctang0/LeetCode/blob/master/CHAPTER67.md)
-* [68. 文本左右对齐-逐层递归](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.md)
-    * [68.1 递归算法模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.1.md)
-    * [68.2 复杂度表](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.2.md)
-    * [68.3 Time Complexity for Javascript Methods in V8](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.3.md)
-* [69. x 的平方根-二分查找, 牛顿法](https://github.com/sctang0/LeetCode/blob/master/CHAPTER69.md)
+> is there a reference for time complexities in a specific Javascript engine like V8?
 
+*No*.
+
+The ECMA specification does not specify a bounding complexity, as you already might know, and nor does that engine. Every JavaScript engine is free to implement its own functionality, as long as it is compatible with the Standard.
+
+V8, for example, does not provide Time Complexities for its methods.
+
+You could of course look at the source code, construct the algorithm used under the hood in our mind, understand it, analyse it and then come up with a bound for its Time Complexity.
+
+
+
+* 提问: [*Chris Redford*](https://stackoverflow.com/users/130427/chris-redford)
+
+我知道 Javascript 标准并未为数组 `unshift` 之类的方法指定所需的时间复杂性. 但是, 在诸如 V8 之类的特定 Javascript 引擎中, 是否有时间复杂性的参考？
+
+
+
+* 回答: [*Gsamaras*](https://stackoverflow.com/users/2411320/gsamaras)
+
+> V8 这样的特定 Javascript 引擎中, 是否有时间复杂性参考？
+
+*没有*.
+
+您可能已经知道, ECMA 规范并未指定边界复杂性, 该引擎也未指定. 只要与标准兼容, 每个 JavaScript 引擎都可以自由实现其自身的功能.
+
+例如, V8 不为其方法提供时间复杂性.
+
+您当然可以查看源代码, 构造我们脑海中使用的算法, 了解它, 对其进行分析, 然后为其时间复杂度提出一个界限.
+
+
+
+##### 思想, 翻译来源
+
+* [Stack Overflow: Time Complexity for Javascript Methods in V8](https://stackoverflow.com/questions/15622248/time-complexity-for-javascript-methods-in-v8)
+* [Google 翻译](https://translate.google.com/?sl=auto&tl=zh-CN&op=translate)
