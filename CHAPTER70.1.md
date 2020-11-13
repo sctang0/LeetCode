@@ -193,7 +193,7 @@ var fibonacciNumber = function (n) {
 ##### 题外话
 
 * 公式法能成立是因为比例关系: ![chapter70.1.14](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.14.png)
-    * 这个比例关系为何成立? 不知道, 这个涉及到线性代数.
+    * 这个比例关系为何成立? 不知道, 这个涉及到线性代数等其它的知识.
 * 使用 `Math.round()` 方法, 最后得到的结果可能出现偏差.
     * 例如: ![chapter70.1.15](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.15.png) 时
         * 输出数列: 0  1  2  3  5  8  13  21  34  55
