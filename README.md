@@ -40,4 +40,5 @@
     * [68.3 Time Complexity for Javascript Methods in V8](https://github.com/sctang0/LeetCode/blob/master/CHAPTER68.3.md)
 * [69. x 的平方根-二分查找, 牛顿法](https://github.com/sctang0/LeetCode/blob/master/CHAPTER69.md)
 * [70. 爬楼梯-动态规划, 公式](https://github.com/sctang0/LeetCode/blob/master/CHAPTER70.md)
+    * [70.1. 斐波拉且数列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER70.1.md)
 
