@@ -94,6 +94,8 @@ var climbStairs = function (n) {
 * [斐波拉且数列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97): `a[1] = 0, a[2] = 1, a[n] = a[n - 1] + a[n - 2]` 形成的数列 `0  1  1  2  3  5  8  13  ...`
 * [Math.pow(base, exponent)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/pow): 返回基数 (`base`) 的指数 (`exponent`) 次幂, 即 `base ^ exponent` .
 * [Math.round(x)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/round): 返回 `x` 四舍五入后最接近的整数.
+* [zhaozhengcc: 数列特征方程](https://blog.csdn.net/bigtiao097/article/details/77113874)
+    * 推导斐波拉且通项公式的方法来源于此
 
 
 
