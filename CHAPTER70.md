@@ -1,4 +1,4 @@
-### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+### [70. 爬楼梯-动态规划, 公式](https://leetcode-cn.com/problems/climbing-stairs/)
 
 ##### 题目描述
 
@@ -101,3 +101,7 @@ var climbStairs = function (n) {
 
 * [画手大鹏: 70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/solution/hua-jie-suan-fa-70-pa-lou-ti-by-guanpengchn/)
 * [力扣官方题解: 70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-leetcode-solution/)
+
+##### 公式编辑器
+
+* [Codecogs](https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn)
