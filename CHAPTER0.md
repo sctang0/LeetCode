@@ -153,6 +153,15 @@
 
 
 
+* [JavaScript 链式栈优点](https://blog.csdn.net/zhangxiangDavaid/article/details/28679027)
+    * 一般, 链式栈与顺序栈相比, 优点是可以动态扩容.
+        * 不过, JavaScript 数组长度是无限的, 只要内存允许. 即使设置了数组长度, 如果需要的话, 随后该长度也可以自动增长. 无需担心溢出.
+            * 所以, 在 JavaScript 中, 链式栈的优点
+                * 插入, 删除灵活
+                * 物理地址不必相连
+
+
+
 * [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://en.citizendium.org/images/math/f/d/0/fd05d8d90456c441c8f10641bd8576bc.png) .
     * a method for finding where a function obtains the value zero, or in other words, solving the equation ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter69.3.png).
 
@@ -162,6 +171,28 @@
   * 深拷贝：将一个对象从内存中完整的拷贝一份出来,从堆内存中开辟一个新的区域存放新对象,且修改新对象不会影响原对象。
   * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.3" alt="浅拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
   * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.4" alt="深拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
+
+
+
+* [数组长度](https://zhidao.baidu.com/question/499788673)
+
+    * JavaScript 数组的长度可以是无限的, 只要内存允许的话. 数组的初始长度可以设置, 如果需要, 随后该长度可以自动增长. 使用数字串当作数组的索引, 等价于直接使用数字索引.
+
+    * JavaScript 数组实际上是个 Key-Value 对. Key 不仅可以使数字, 还可以是其它对象.
+
+        * ```javascript
+            var arr = new Array(2);
+            arr[0] = 1;
+            arr['second'] = 2;
+            arr['third'] = 3;
+            console.log(arr['0'] + ' ' + arr['second'] + [' '] + arr['third']);
+            console.log(arr.length);
+            /**
+             * console:
+                 1 2 3
+     2
+             */
+            ```
 
 
 
