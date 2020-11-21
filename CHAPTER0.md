@@ -41,6 +41,11 @@
     // expected output: "FireAirWater"
     ```
 
+  * [复杂度分析](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.5)
+
+    * 时间复杂度: O(n), `n = arr.length` . 用 `while` 循环, 依次将数组 `arr` 中元素, 存放到返回字符串 `R` 末尾.
+    * 空间复杂度: O(n * m), `n = arr.length; m = arr[n].length` . 定义返回字符串 `R`,  储存数组 `arr` 中所有元素.
+
 
 
 * [Number()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number): 当作为一个函数使用时, `Number(value)` 会将 `value` 转换为数字类型. 如果值不能被转换, 就返回 `NaN` .
@@ -56,14 +61,20 @@
 
 
 
-* [arr.pop()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)：`pop()`方法从数组中删除最后一个元素，并返回该元素的值。此方法更改数组的长度。
-  * 此方法更改数组 `arr` ，变为不包含数组最后一个元素的数组（若 `arr.length >= 1`）。
+* [arr.pop()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop): `pop()` 方法从数组中删除最后一个元素, 并返回该元素的值. 此方法更改数组的长度.
+  * 此方法更改数组 `arr` , 变为不包含数组最后一个元素的数组 (若 `arr.length >= 1`) .
+  * [复杂度分析](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.6)
+      * 时间复杂度: O(1). `arr.pop()` 根据 `length` 属性来确定最后一个元素的位置.
+      * 空间复杂度: O(1). `arr.pop()` 调用过程中, 并没有开辟一块 `length - 1` 大小的空间, 来存储前 `length - 1` 个元素. 而是, 直接对数组 `arr` 进行删值操作.
 
 
 
-* [arr.push(element1, ..., elementN)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push)：将一个或多个元素添加到数组的末尾，并返回该数组的新长度。
-  * elementN：被添加到数组末尾的元素
-  * 返回值：当调用该方法时，新的 length 属性值将被返回。
+* [arr.push(element1, ..., elementN)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push): 将一个或多个元素添加到数组的末尾, 并返回该数组的新长度.
+  * elementN: 被添加到数组末尾的元素
+  * 返回值: 当调用该方法时, 新的 length 属性值将被返回.
+  * [复杂度分析](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.7)
+      * 时间复杂度: O(n), `n = element.length` . `arr.push()` 根据 `length` 属性来确定从哪里插入给定值. `arr.push()` 内部定义数组 `items` 来从左至右储存 `element1 ~ N` 的值. 并用 `while` 循环依次加入数组 `arr` 末尾.
+      * 空间复杂度: O(n), `n = element.length` . `arr.push()` 调用过程中, 定义数组 `items` 来存储 `element1 ~ N` 的值.
 
 
 
@@ -96,7 +107,10 @@
 
 
 
-* [arr.split()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split): 使用指定的分隔符字符串将 `arr` 对象分割成子字符串数组.
+* [string.split()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split): 使用指定的分隔符字符串将 `arr` 对象分割成子字符串数组.
+    * [复杂度分析](https://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.14)
+        * 时间复杂度: O(n), `n = string.length` . 在 `string` 元素, 传入返回数组 `arr` 过程中, 遍历了字符串 `string` .
+        * 空间复杂度: O(n), `n = string.length` . 定义返回数组 `arr` . 特殊情况, `string` 字符全为分隔字符, `arr` 长度为 `string.length` , 元素都为 `''` . 平均情况, `arr` 包含 `string.length / 2` 个字符.
 
 
 
