@@ -103,8 +103,12 @@ var simplifyPath = function(path) {
 
 ##### 复杂度分析
 
-* 时间复杂度: O(n), `n = path.split('/').length` . `for` 循环遍历数组 `path.split('/')` .
-* 空间复杂度: O(n), `n = path.split('/').length` . 数组 `pathArr` 长度为 `n = path.split('/').length` .
+* 时间复杂度: O(n), `n = path.split('/').length` .
+    * `for` 循环遍历数组 `path.split('/')` .
+    * 在该题中, 方法 [arr.push()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.7) [arr.pop()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.6) 的时间复杂度为 O(1) , [arr.join()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.5) [string.split()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.14) 的时间复杂度为 O(n) .
+* 空间复杂度: O(n), `n = path.split('/').length` .
+    * 数组 `pathArr` 长度为 `n = path.split('/').length` .
+    * 在该题中, 方法 [arr.push()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.7) [arr.pop()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.6) 的空间复杂度为 O(1) , [arr.join()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.5) [string.split()](https://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.14) 的空间复杂度为 O(n) .
 
 
 
