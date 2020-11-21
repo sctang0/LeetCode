@@ -219,7 +219,7 @@ var simplifyPath = function(path) {
 
 ##### 程序参考
 
-* [sctang0: 栈-程序模板](https://github.com/sctang0/LeetCode-Private/blob/master/CHAPTER71.1.md)
+* [sctang0: 栈-程序模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER71.1.md)
 * [101刘辰: JavaScript 数组中长度最大是多少? 能设置吗?](https://zhidao.baidu.com/question/499788673)
 * [苏叔叔: 栈的实现: 链式栈](https://blog.csdn.net/zhangxiangDavaid/article/details/28679027)
 * [王争: StackBasedOnLinkedList.js](https://github.com/wangzheng0822/algo/blob/master/javascript/08_stack/StackBasedOnLinkedList.js)
