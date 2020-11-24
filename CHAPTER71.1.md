@@ -28,7 +28,7 @@ class StackBasedArray {
     }
     pop () {
         if (this._count >= 1) {
-            this._items[this._count] = null;
+            this._items[this._count - 1] = null;
             this._count --;
         } else {
             return null;
