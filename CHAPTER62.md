@@ -27,7 +27,7 @@
 
 * 如果, 向右移动一格用 0 表示, 向下移动一格用 1 来表示. 那么, 这道题就是看 m - 1 个 0 和 n - 1 个 1 能产生多少种不重复的排列组合.
     * 即在 n + m - 2 个位置里, m - 1 个 0 或 n - 1 个 1 有多少种不重复的排列方式?
-        * C_{n + m - 2}^{n - 1} = ( n + m - 2 ) ! / ( ( n - 1 ) ! * ( m - 1 ) ! )
+        * ![chapter62.1](https://github.com/sctang0/LeetCode/blob/master/images/chapter62.1.png)
 
 ```javascript
 /**
