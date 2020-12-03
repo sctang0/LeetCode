@@ -44,4 +44,5 @@
 * [71. 简化路径--顺序栈, 链式栈](https://github.com/sctang0/LeetCode/blob/master/CHAPTER71.md)
     * [71.1. 栈-程序模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER71.1.md)
 * [232. 两个栈相互合作实现队列-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.md)
+    * [232.1. 队列程序模板-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.1.md)
 
