@@ -45,4 +45,6 @@
     * [71.1. 栈-程序模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER71.1.md)
 * [232. 两个栈相互合作实现队列-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.md)
     * [232.1. 队列程序模板-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.1.md)
+    * [232.2. 双栈实现队列程序模板-顺序, 链式](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.2.md)
+    * [232.3. 生成随机数](https://github.com/sctang0/LeetCode/blob/master/CHAPTER232.3.md)
 
