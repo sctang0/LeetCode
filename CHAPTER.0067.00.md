@@ -8,14 +8,12 @@
 
     * 提示：
 
-        * <div align = center>
-                <img src="https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter61.gif" alt="图片来源: 一个歪卜: 61. 旋转链表" width="70%" />
-            </div>
-    * `1 <= a.length, b.length <= 10 ^ 4`
+        * 每个字符串仅由字符 "0" 或 "1" 组成。
+        * `1 <= a.length, b.length <= 10 ^ 4`
         * 字符串如果不是 "0" ，就都不含前导零。
-
+        
     * 示例：
-    
+
         * ```example
             输入: a = "11", b = "1"
             输出: "100"
