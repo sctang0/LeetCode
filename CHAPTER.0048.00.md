@@ -58,7 +58,7 @@
 
   * 矩阵的划分，如下图：
 
-    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/48.Rotate_Image.png" alt="图片来源：wiserui：48. 旋转图像" width="70%" />
+    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/01-99/48.Rotate_Image.png" alt="图片来源：wiserui：48. 旋转图像" width="70%" />
 
   * 那么，如何实现矩阵元素的遍历呢？
 
