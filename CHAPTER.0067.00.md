@@ -8,12 +8,14 @@
 
     * 提示：
 
-        * 每个字符串仅由字符 '0' 或 '1' 组成。
-        * `1 <= a.length, b.length <= 10 ^ 4`
+        * <div align = center>
+                <img src="https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter61.gif" alt="图片来源: 一个歪卜: 61. 旋转链表" width="70%" />
+            </div>
+    * `1 <= a.length, b.length <= 10 ^ 4`
         * 字符串如果不是 "0" ，就都不含前导零。
 
     * 示例：
-
+    
         * ```example
             输入: a = "11", b = "1"
             输出: "100"
@@ -27,7 +29,7 @@
 * 定义变量 `tmp` 保存进位的值, 定义数组 `res` 保存相加得到的和.
   
     * <div align = center>
-            <img src="https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter67.jpg" alt="chapter67" width="75%" /><div>
+            <img src="https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter67.jpg" alt="chapter67" width="75%" /><div>
 * 由上图可知, 程序的最小重复单元:
     * 保存进位值: `tmp =Math.floor( ( a[i] + b[j] + tmp) / 2 ) `
     * 保存每次相加的结果: `res[k] = ( a[i] + b[j] + tmp ) % 2`

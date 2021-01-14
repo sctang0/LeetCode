@@ -3,8 +3,9 @@
 ##### 题目描述
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.1.png" alt = "Citizendium: Fibonacci number">
+    <img src = "https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.1.png" alt = "Citizendium: Fibonacci number">
 </div>
+
 
 
 * 可以形成数列: 0  1  1  2  3  5  8  13  21  34  ...
@@ -56,11 +57,12 @@ var fibonacciNumber = function (n) {
 ##### 方法三: 公式
 
 * 数列: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... (`a[n] = a[n - 1] + a[n - 2]`). 该数列的通项公式:
-    * 注意: 通项公式中的 n 从 1 开始计数. 即 ![chapter70.1.2](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.2.png)
+    * 注意: 通项公式中的 n 从 1 开始计数. 即 ![chapter70.1.2](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.2.png)
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.3.png" alt = "Citizendium: Fibonacci number">
+    <img src = "https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.3.png" alt = "Citizendium: Fibonacci number">
 </div>
+
 
 
 
@@ -81,19 +83,19 @@ var fibonacciNumber = function (n) {
 
 * 若第一, 第二个数为其它任意数(非负), 通项公式为何?
 
-    * ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.4.png)
+    * ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.4.png)
       
-    * 将 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.5.png) 带入其中, 可求得 p q
+    * 将 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.5.png) 带入其中, 可求得 p q
 
-    * 把 p q 的值带入 ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.6.png) 中, 可得到该种情况下 ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.6.png) 的通项公式
+    * 把 p q 的值带入 ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.6.png) 中, 可得到该种情况下 ![From: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.6.png) 的通项公式
 
     * 举例一
 
         * 数列: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... (`a[n] = a[n - 1] + a[n - 2]`)
 
-        * 解得 ![Made by: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.7.png)
+        * 解得 ![Made by: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.7.png)
 
-        * ![Made by: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.8.png)
+        * ![Made by: zhaozhengcc](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.8.png)
 
             * ```javascript
                 /**
@@ -122,9 +124,9 @@ var fibonacciNumber = function (n) {
 
         * 数列: 1, 2, 3, 5, 8, 13, 21, 34, ... (`a[n] = a[n - 1] + a[n - 2]`)
         
-        * 解得 ![chapter70.1.8](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.9.png)
+        * 解得 ![chapter70.1.8](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.9.png)
         
-        * ![chapter70.1.9](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.10.png)
+        * ![chapter70.1.9](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.10.png)
         
             * ```javascript
                 /**
@@ -150,16 +152,16 @@ var fibonacciNumber = function (n) {
 
 * One more thing
 
-    * 将 p q 用 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.5.png) 表示, 并用程序模拟计算( n 从 1 开始计数)
+    * 将 p q 用 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.5.png) 表示, 并用程序模拟计算( n 从 1 开始计数)
 
-        * 若数列的第一, 第二个数分别为 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.5.png)
-        * ![chapter70.1.11](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.11.png)
+        * 若数列的第一, 第二个数分别为 ![Made by: Codecogs](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.5.png)
+        * ![chapter70.1.11](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.11.png)
         * 解得
-            * ![chapter70.1.12](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.12.png)
+            * ![chapter70.1.12](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.12.png)
 
     * 进一步, 结合通项公式
 
-        * ![chapter70.1.13](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.13.png)
+        * ![chapter70.1.13](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.13.png)
 
     * 程序
 
@@ -192,10 +194,10 @@ var fibonacciNumber = function (n) {
 
 ##### 题外话
 
-* 公式法能成立是因为比例关系: ![chapter70.1.14](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.14.png)
+* 公式法能成立是因为比例关系: ![chapter70.1.14](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.14.png)
     * 这个比例关系为何成立? 不知道, 这个涉及到线性代数等其它的知识.
 * 使用 `Math.round()` 方法, 最后得到的结果可能出现偏差.
-    * 例如: ![chapter70.1.15](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.15.png) 时
+    * 例如: ![chapter70.1.15](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.15.png) 时
         * 输出数列: 0  1  2  3  5  8  13  21  34  55
 
 

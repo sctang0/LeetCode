@@ -4,7 +4,9 @@
 
 * 实现 int sqrt(int x) 函数。
 
-    * 计算并返回 x 的平方根，其中 x 是非负整数。
+    * <div align = center>
+            <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter68.2.3.png" alt = "author: https://www.bigocheatsheet.com/" width = "100%">
+        </div>
     * 由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
 
 * 示例:
@@ -98,11 +100,12 @@ var mySqrt = function (x) {
 
 ##### 方法二: 牛顿法
 
-* 下面这张动图是等式 <img src = "https://github.com/sctang0/LeetCode/blob/master/images/chapter69.1.svg" width = "12%"> 的收敛图. 可以看到牛顿法的收敛过程.
+* 下面这张动图是等式 <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.1.svg" width = "12%"> 的收敛图. 可以看到牛顿法的收敛过程.
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/chapter69.2.gif" alt = "author: Ralf Pfeifer href: https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95#/media/File:NewtonIteration_Ani.gif" width = "70%">
+    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.2.gif" alt = "author: Ralf Pfeifer href: https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95#/media/File:NewtonIteration_Ani.gif" width = "70%">
 </div>
+
 
 
 
@@ -138,7 +141,7 @@ var mySqrt = function (x) {
 
 ##### 题外话
 
-* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter69.3.png) .
+* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.3.png) .
 
 
 

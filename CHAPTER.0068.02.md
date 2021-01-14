@@ -1,19 +1,20 @@
 ### [68.2 复杂度表](https://www.bigocheatsheet.com/)
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/chapter68.2.1.jpeg" alt = "author: https://www.bigocheatsheet.com/" width = "65%">
+    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter68.2.1.jpg" alt = "author: https://www.bigocheatsheet.com/" width = "65%">
 </div>
 
 
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/chapter68.2.2.png" alt = "author: https://www.bigocheatsheet.com/" width = "100%">
+    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter68.2.2.png" alt = "author: https://www.bigocheatsheet.com/" width = "100%">
 </div>
 
 
 
+
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/chapter68.2.3.png" alt = "author: https://www.bigocheatsheet.com/" width = "100%">
+    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter68.2.3.png" alt = "author: https://www.bigocheatsheet.com/" width = "100%">
 </div>
 
 

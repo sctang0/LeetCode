@@ -65,8 +65,8 @@ var climbStairs = function (n) {
 * 爬楼梯对应的数列为: 1  2  3  5  8  13 21 34 55 89 ...
     * 满足 `a[n] = a[n - 1] + a[n - 2]`
     * 对应斐波拉且通项公式为
-        * ![chapter70.1](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.1.png)
-            * 注意: 该公式从 1 开始计数. 即, ![chapter70.2](https://github.com/sctang0/LeetCode-Private/blob/master/images/chapter70.2.png)
+        * ![chapter70.1](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.1.png)
+            * 注意: 该公式从 1 开始计数. 即, ![chapter70.2](https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter70.2.png)
 
 ```javascript
 /**
