@@ -174,7 +174,16 @@
 
 ##### 概念
 
+* [迭代](https://zh.wikipedia.org/wiki/%E8%BF%AD%E4%BB%A3): 重复反馈过程的活动, 其目的通常是为了接近并到达所需的目标或结果.
+
+
+
 * [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92): 为避免多次解决重复的子问题, 结果会被都逐渐计算并保存.
+
+
+
+* [反馈](https://zh.wikipedia.org/wiki/反馈): (英语: feedback), 指将系统的输出返回到输入端并以某种方式改变输入, 它们之间存在因果关系的回路, 进而影响系统功能的过程.
+    * ![](https://github.com/sctang0/LeetCode/blob/main/images/00/00.001.png)
 
 
 
