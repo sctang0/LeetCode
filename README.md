@@ -41,7 +41,7 @@
 * [69. x 的平方根-二分查找, 牛顿法](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0069.00.md)
 * [70. 爬楼梯-动态规划, 公式](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0070.00.md)
     * [70.1. 斐波拉且数列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0070.01.md)
-* [71. 简化路径--顺序栈, 链式栈](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0071.00.md)
+* [71. 简化路径-顺序栈, 链式栈](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0071.00.md)
     * [71.1. 栈-程序模板](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0071.01.md)
 * [232. 两个栈相互合作实现队列-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0232.00.md)
     * [232.1. 队列程序模板-顺序队列, 链式队列](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0232.01.md)
