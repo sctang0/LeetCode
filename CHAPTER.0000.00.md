@@ -183,7 +183,7 @@
 
 
 * [反馈](https://zh.wikipedia.org/wiki/反馈): (英语: feedback), 指将系统的输出返回到输入端并以某种方式改变输入, 它们之间存在因果关系的回路, 进而影响系统功能的过程.
-    * ![](https://github.com/sctang0/LeetCode/blob/main/images/00/00.001.png)
+    * ![](https://github.com/sctang0/LeetCode/blob/master/images/00/00.001.png)
 
 
 
