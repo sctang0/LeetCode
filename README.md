@@ -7,7 +7,8 @@
 
 #### 目录：
 
-* [0. 题外话合集](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.00.md)
+* [0. 题外话合集](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.000.md)
+    * [0.1. 测试程序执行时长](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.000.001.md)
 * [45. 跳跃游戏 ii](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0045.00.md)
 * [46. 全排序](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0046.00.md)
   * [46.1 arr.slice() 的使用](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0046.01.md)
