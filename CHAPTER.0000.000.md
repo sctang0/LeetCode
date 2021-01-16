@@ -197,14 +197,14 @@
 
 
 * [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://en.citizendium.org/images/math/f/d/0/fd05d8d90456c441c8f10641bd8576bc.png) .
-    * a method for finding where a function obtains the value zero, or in other words, solving the equation ![img](https://github.com/sctang0/LeetCode/blob/master/images/chapter69.3.png).
+    * a method for finding where a function obtains the value zero, or in other words, solving the equation ![img](https://github.com/sctang0/LeetCode/blob/master/images/00/chapter69.3.png).
 
 
 
 * [浅拷贝](https://juejin.im/post/6844904197595332622)：浅拷贝是创建一个新对象，这个对象有着原始对象属性值的一份精确拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的就是内存地址 ，所以如果其中一个对象改变了这个地址，就会影响到另一个对象。
   * 深拷贝：将一个对象从内存中完整的拷贝一份出来,从堆内存中开辟一个新的区域存放新对象,且修改新对象不会影响原对象。
-  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.3" alt="浅拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
-  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.4" alt="深拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
+  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/00/chapter46.1.3" alt="浅拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
+  * <img src="https://github.com/sctang0/LeetCode/blob/master/images/00/chapter46.1.4" alt="深拷贝 来源: https://juejin.im/post/6844904197595332622" width="569" />
 
 
 
@@ -237,8 +237,8 @@
 * [栈结构](https://juejin.im/post/6844904129605828615)：一个递归函数，在函数执行过程中，需要多次进行自我调用，在高级语言程序中，调用函数和被调用函数之间的链接与信息交换都是通过栈来进行。
   * 为了保证递归函数的正确执行，系统就要建立一层一层的的工作栈，每层工作栈保留了所有的实参，局部变量，以及上一层的返回地址，形成工作记录压入栈顶，就形成了递归工作栈。
   * 举例：
-    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.1" alt="递归工作栈: 程序 来源: https://juejin.im/post/6844904129605828615" width="300" />
-    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/chapter46.1.2" alt="递归工作栈: 图片表示 来源: https://juejin.im/post/6844904129605828615" width="375" />
+    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/00/chapter46.1.1" alt="递归工作栈: 程序 来源: https://juejin.im/post/6844904129605828615" width="300" />
+    * <img src="https://github.com/sctang0/LeetCode/blob/master/images/00/chapter46.1.2" alt="递归工作栈: 图片表示 来源: https://juejin.im/post/6844904129605828615" width="375" />
 
 
 
