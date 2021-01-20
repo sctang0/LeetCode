@@ -1,4 +1,4 @@
-### [141. 环形链表-快慢指针](https://leetcode-cn.com/problems/linked-list-cycle/)
+### [141. 环形链表-快慢指针, 标记](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 * 给定一个链表, 判断链表中是否有环.
 
@@ -45,7 +45,7 @@
 
 
 
-##### 思路: 快慢指针
+##### 思路一: 快慢指针
 
 * 定义快指针 `fast` , 慢指针 `slow` .
     * 快指针每次走两格, 慢指针每次走一格.
@@ -101,6 +101,69 @@ var hasCycle = function(head) {
 
 * 若 `fast.next = null` , 在执行 `fast = fast.next.next` 时, 会报错.
     * 于是, 在 `while` 运行条件中, 加入了 `fast.next` .
+
+
+
+##### 思路二: 标记
+
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+var hasCycle = function(head) {
+    while (head && head.next) {
+        if (head.flag) {
+            return true
+        } else {
+            head.flag = 1;
+            head = head.next;
+        }
+    }
+    return false;
+}
+```
+
+##### 复杂度分析
+
+* 时间复杂度: O(n), `n` 为链表 `head` 的长度.
+* 空间复杂度: O(1)
+
+##### 题外话
+
+* [listNode.flag](https://stackoverflow.com/questions/17402125/what-is-a-flag-variable): 未定义时, 为 `undefined` .
+
+    * ```javascript
+        class Node {
+            constructor (element) {
+                this.element = element;
+                this.next = null;
+            }
+        }
+        let i = new Node(1);
+        console.log(i.flag);
+        i.flag = 2;
+        console.log(i.flag);
+        i.flag = false;
+        console.log(i.flag);
+        
+        /**
+         * std:
+         *   undefined
+         *   2
+         *   false
+         *
+         * 注: 由 WebStorm 编译
+         */
+        ```
 
 
 
