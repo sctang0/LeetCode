@@ -25,6 +25,34 @@
 
 
 
+* [listNode.flag](https://stackoverflow.com/questions/17402125/what-is-a-flag-variable): 未定义时, 为 `undefined` .
+
+    * ```javascript
+        class Node {
+            constructor (element) {
+                this.element = element;
+                this.next = null;
+            }
+        }
+        let i = new Node(1);
+        console.log(i.flag);
+        i.flag = 2;
+        console.log(i.flag);
+        i.flag = false;
+        console.log(i.flag);
+        
+        /**
+         * std:
+         *   undefined
+         *   2
+         *   false
+         *
+         * 注: 由 WebStorm 编译
+         */
+        ```
+
+
+
 * [Math.floor(x) ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)：`x` 为一个数字，方法返回小于或等于 `x` 的最大整数。
 
 
