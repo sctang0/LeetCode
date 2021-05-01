@@ -25,8 +25,9 @@
 * 图解
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/200-299/206.01.png" alt = "img">
+    <img src = "./images/200-299/206.01.png" alt = "img">
 </div>
+
 
 ```javascript
 /**

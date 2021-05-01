@@ -6,7 +6,7 @@
 
     - 示例一
 
-        - ![img](https://github.com/sctang0/LeetCode/blob/master/images/01-99/01-99.0024.01.png)
+        - ![img](./images/01-99/01-99.0024.01.png)
 
         - ```
                 输入: head = [ 1, 2, 3, 4 ]
@@ -39,8 +39,9 @@
 - 图解
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/01-99.0024.02.png" alt = "img">
+    <img src = "./images/01-99/01-99.0024.02.png" alt = "img">
 </div>
+
 
 ```javascript
 /**

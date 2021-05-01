@@ -17,8 +17,9 @@
 | Send packet CA->Netherlands->CA (一个包的一次远程访问)       | 150,000,000 ns         |
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/00/00.004.01.png" alt = "img">
+    <img src = "./images/00/00.004.01.png" alt = "img">
 </div>
+
 
 参考:
 

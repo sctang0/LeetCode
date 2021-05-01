@@ -98,11 +98,12 @@ var mySqrt = function (x) {
 
 ##### 方法二: 牛顿法
 
-* 下面这张动图是等式 <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.1.svg" width = "12%"> 的收敛图. 可以看到牛顿法的收敛过程.
+* 下面这张动图是等式 <img src = "./images/01-99/chapter69.1.svg" width = "12%"> 的收敛图. 可以看到牛顿法的收敛过程.
 
 <div align = center>
-    <img src = "https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.2.gif" alt = "author: Ralf Pfeifer href: https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95#/media/File:NewtonIteration_Ani.gif" width = "70%">
+    <img src = "./images/01-99/chapter69.2.gif" alt = "author: Ralf Pfeifer href: https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E6%B3%95#/media/File:NewtonIteration_Ani.gif" width = "70%">
 </div>
+
 
 
 
@@ -139,7 +140,7 @@ var mySqrt = function (x) {
 
 ##### 题外话
 
-* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter69.3.png) .
+* [牛顿法](https://en.citizendium.org/wiki/Newton's_method#Computational_complexity): 一个解决函数值为零的方法, 换一句话说解决方程 ![img](./images/01-99/chapter69.3.png) .
 
 
 

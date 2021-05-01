@@ -19,8 +19,9 @@
 ##### 思路: 链表转环
 
 <div align = center>
-    <img src="https://github.com/sctang0/LeetCode/blob/master/images/01-99/chapter61.gif" alt="图片来源: 一个歪卜: 61. 旋转链表" width="70%" />
+    <img src="./images/01-99/chapter61.gif" alt="图片来源: 一个歪卜: 61. 旋转链表" width="70%" />
 </div>
+
 
 ```javascript
 /**

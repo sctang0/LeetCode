@@ -24,8 +24,9 @@
 ##### 思路：递归剪枝
 
 <div align = center>
-    	<img src="https://github.com/sctang0/LeetCode/blob/master/images/01-99/46.Permutations.png" alt="图片来源：笨猪爆破组" width="70%" />
+    	<img src="./images/01-99/46.Permutations.png" alt="图片来源：笨猪爆破组" width="70%" />
 </div>
+
 
 
 ```javascript

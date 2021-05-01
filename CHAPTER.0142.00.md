@@ -13,7 +13,7 @@
 
     * 示例一
 
-        * ![img](https://github.com/sctang0/LeetCode/blob/master/images/100-199/100-199.0142.01.png)
+        * ![img](./images/100-199/100-199.0142.01.png)
 
         * ```example
             输入: head = [ 1 ], pos = -1
@@ -23,7 +23,7 @@
 
     * 示例二
 
-        * ![img](https://github.com/sctang0/LeetCode/blob/master/images/100-199/100-199.0142.02.png)
+        * ![img](./images/100-199/100-199.0142.02.png)
 
         * ```example
             输入: head = [ 1, 2 ], pos = 0
@@ -33,7 +33,7 @@
 
     * 示例三
 
-        * ![img](https://github.com/sctang0/LeetCode/blob/master/images/100-199/100-199.0142.03.png)
+        * ![img](./images/100-199/100-199.0142.03.png)
 
         * ```example
             输入: head = [ 3, 2, 0, -4 ], pos = 1

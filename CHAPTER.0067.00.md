@@ -27,7 +27,7 @@
 * 定义变量 `tmp` 保存进位的值, 定义数组 `res` 保存相加得到的和.
   
     * <div align = center>
-            <img src="https://github.com/sctang0/LeetCode-Private/blob/master/images/01-99/chapter67.jpg" alt="chapter67" width="75%" /><div>
+            <img src="./images/01-99/chapter67.jpg" alt="chapter67" width="75%" /><div>
 * 由上图可知, 程序的最小重复单元:
     * 保存进位值: `tmp =Math.floor( ( a[i] + b[j] + tmp) / 2 ) `
     * 保存每次相加的结果: `res[k] = ( a[i] + b[j] + tmp ) % 2`
