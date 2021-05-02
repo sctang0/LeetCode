@@ -7,7 +7,7 @@
 
 #### 目录:
 
-* [0. 题外话合集](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.000.md)
+* [0. 题外话合集](./CHAPTER.0000.000.md)
     * [0.1 测试程序执行时长](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.001.md)
     * [0.2 迭代器](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.002.md)
     * [0.3 数组的浅复制与深复制](https://github.com/sctang0/LeetCode/blob/master/CHAPTER.0000.003.md)
